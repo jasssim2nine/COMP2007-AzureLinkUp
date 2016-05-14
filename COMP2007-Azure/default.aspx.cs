@@ -13,5 +13,10 @@ namespace COMP2007_Azure
         {
 
         }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            FullNameTextBox.Text = FirstNameTextBox.Text.ToString() + " " + LastNameTextBox.Text.ToString();
+        }
     }
 }
